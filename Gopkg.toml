@@ -43,16 +43,16 @@
   version = "0.0.2"
 
 [[constraint]]
-  branch = "master"
+  version = "kubernetes-1.12.0"
   name = "k8s.io/api"
 
 [[constraint]]
-  branch = "master"
+  version = "kubernetes-1.12.0"
   name = "k8s.io/apimachinery"
 
 [[constraint]]
   name = "k8s.io/client-go"
-  version = "7.0.0"
+  version = "kubernetes-1.12.0"
 
 [[override]]
   branch = "master"

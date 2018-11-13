@@ -40,7 +40,6 @@
     "aws/signer/v4",
     "internal/sdkio",
     "internal/sdkrand",
-    "internal/sdkuri",
     "internal/shareddefaults",
     "private/protocol",
     "private/protocol/eventstream",
@@ -386,8 +385,7 @@
   version = "v2.2.1"
 
 [[projects]]
-  branch = "master"
-  digest = "1:d895c7c24a0dd1ed2ecd061fd88dfea9e1e84d6f280ed859942a2d1aabee10ec"
+  digest = "1:c6b0cfc418f5e8bb9169d78f1024cb1c9f3e61c9a76235134d26d3f28ecdf27b"
   name = "k8s.io/api"
   packages = [
     "admissionregistration/v1alpha1",
@@ -401,10 +399,12 @@
     "authorization/v1beta1",
     "autoscaling/v1",
     "autoscaling/v2beta1",
+    "autoscaling/v2beta2",
     "batch/v1",
     "batch/v1beta1",
     "batch/v2alpha1",
     "certificates/v1beta1",
+    "coordination/v1beta1",
     "core/v1",
     "events/v1beta1",
     "extensions/v1beta1",
@@ -414,17 +414,18 @@
     "rbac/v1alpha1",
     "rbac/v1beta1",
     "scheduling/v1alpha1",
+    "scheduling/v1beta1",
     "settings/v1alpha1",
     "storage/v1",
     "storage/v1alpha1",
     "storage/v1beta1",
   ]
   pruneopts = "NUT"
-  revision = "53d615ae3f440f957cb9989d989d597f047262d9"
+  revision = "fd83cbc87e7632ccd8bbab63d2b673d4e0c631cc"
+  version = "kubernetes-1.12.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:dff69dd9d9fc681ae077ce5a409aca3c24894d09102ab0395ca7972f6ec01811"
+  digest = "1:d75068228457fe797c2a9710b4cf61133c1c17d5deb93fde92297c33bfc9c2b8"
   name = "k8s.io/apimachinery"
   packages = [
     "pkg/api/equality",
@@ -453,28 +454,29 @@
     "pkg/util/intstr",
     "pkg/util/json",
     "pkg/util/mergepatch",
+    "pkg/util/naming",
     "pkg/util/net",
     "pkg/util/runtime",
     "pkg/util/sets",
     "pkg/util/strategicpatch",
     "pkg/util/validation",
     "pkg/util/validation/field",
-    "pkg/util/wait",
     "pkg/util/yaml",
     "pkg/watch",
     "third_party/forked/golang/json",
     "third_party/forked/golang/reflect",
   ]
   pruneopts = "NUT"
-  revision = "13b73596e4b63e03203e86f6d9c7bcc1b937c62f"
+  revision = "6dd46049f39503a1fc8d65de4bd566829e95faff"
+  version = "kubernetes-1.12.0"
 
 [[projects]]
-  digest = "1:ae9ced9ef7b8eb2794a4f80bc3af9d2bc38ec7d60337367bad9a655c1d641458"
+  digest = "1:0b2a707efbcd9149196113e6730ff026448fee6d83e6a80606880cf5a43db0bf"
   name = "k8s.io/client-go"
   packages = ["kubernetes/scheme"]
   pruneopts = "NUT"
-  revision = "23781f4d6632d88e869066eaebb743857aa1ef9b"
-  version = "v7.0.0"
+  revision = "1638f8970cefaa404ff3a62950f88b08292b2696"
+  version = "kubernetes-1.12.0"
 
 [[projects]]
   branch = "master"
