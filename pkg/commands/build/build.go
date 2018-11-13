@@ -34,6 +34,10 @@ type buildOptions struct {
 	outputPath        string
 }
 
+func NewBuildOptions(path string) buildOptions {
+	return buildOptions{kustomizationPath: path}
+}
+
 var examples = `
 Use the file somedir/kustomization.yaml to generate a set of api resources:
     build somedir
