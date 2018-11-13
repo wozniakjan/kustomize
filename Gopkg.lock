@@ -40,7 +40,6 @@
     "aws/signer/v4",
     "internal/sdkio",
     "internal/sdkrand",
-    "internal/sdkuri",
     "internal/shareddefaults",
     "private/protocol",
     "private/protocol/eventstream",
@@ -386,8 +385,7 @@
   version = "v2.2.1"
 
 [[projects]]
-  branch = "master"
-  digest = "1:d895c7c24a0dd1ed2ecd061fd88dfea9e1e84d6f280ed859942a2d1aabee10ec"
+  digest = "1:6c83b13ab11fa7a63d7a10a879036862c6a6480c6801e03e524b538e5ad7a566"
   name = "k8s.io/api"
   packages = [
     "admissionregistration/v1alpha1",
@@ -420,11 +418,11 @@
     "storage/v1beta1",
   ]
   pruneopts = "NUT"
-  revision = "53d615ae3f440f957cb9989d989d597f047262d9"
+  revision = "fd83cbc87e7632ccd8bbab63d2b673d4e0c631cc"
+  version = "kubernetes-1.12.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:dff69dd9d9fc681ae077ce5a409aca3c24894d09102ab0395ca7972f6ec01811"
+  digest = "1:d75068228457fe797c2a9710b4cf61133c1c17d5deb93fde92297c33bfc9c2b8"
   name = "k8s.io/apimachinery"
   packages = [
     "pkg/api/equality",
@@ -453,20 +451,21 @@
     "pkg/util/intstr",
     "pkg/util/json",
     "pkg/util/mergepatch",
+    "pkg/util/naming",
     "pkg/util/net",
     "pkg/util/runtime",
     "pkg/util/sets",
     "pkg/util/strategicpatch",
     "pkg/util/validation",
     "pkg/util/validation/field",
-    "pkg/util/wait",
     "pkg/util/yaml",
     "pkg/watch",
     "third_party/forked/golang/json",
     "third_party/forked/golang/reflect",
   ]
   pruneopts = "NUT"
-  revision = "13b73596e4b63e03203e86f6d9c7bcc1b937c62f"
+  revision = "6dd46049f39503a1fc8d65de4bd566829e95faff"
+  version = "kubernetes-1.12.0"
 
 [[projects]]
   digest = "1:ae9ced9ef7b8eb2794a4f80bc3af9d2bc38ec7d60337367bad9a655c1d641458"
